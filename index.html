@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="TTTstyle.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>Tic Tac Toe</h1>
+
+    <div class="controls">
+      <label><input type="radio" name="mode" value="pvp" checked> Player vs Player</label>
+      <label><input type="radio" name="mode" value="ai"> Player vs AI</label>
+      <button id="restart">Restart</button>
+    </div>
+
+    <div id="board" class="board"></div>
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="TTTscript.js"></script>
+</body>
+</html>
